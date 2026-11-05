@@ -1,0 +1,12 @@
+Category,Planned Monthly,Actual Monthly,Difference
+Income,0,0,=C2-B2
+Housing,0,0,=B3-C3
+Utilities,0,0,=B4-C4
+Groceries,0,0,=B5-C5
+Transportation,0,0,=B6-C6
+Insurance,0,0,=B7-C7
+Debt Payments,0,0,=B8-C8
+Savings,0,0,=B9-C9
+Entertainment,0,0,=B10-C10
+Other,0,0,=B11-C11
+NET CASH FLOW,=B2-SUM(B3:B11),=C2-SUM(C3:C11),=C12-B12
